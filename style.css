@@ -26,11 +26,11 @@ body {
     backdrop-filter: blur(20px);
     border-radius: 20px;
     box-shadow: 0;
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
     margin-top: 65px;
     padding: 20px;
-    height: 580px;
+    height: 480px;
     align-content: center;
     justify-content: space-evenly;
     place-items: center;
