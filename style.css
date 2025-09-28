@@ -1,0 +1,66 @@
+html,
+body {
+
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    height: 100%;
+    overflow: hidden;
+
+
+}
+
+.container-bg {
+    background-image: url(./element/background.svg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 65px;
+    padding: 20px;
+    height: 580px;
+    align-content: center;
+    justify-content: space-evenly;
+    place-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.078);
+
+}
+
+.isi-biodata {
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.sosmed-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 54px;
+}
+
+.sosmed-container a :hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.sosmed-container img {
+    width: 40px;
+    height: 40px;
+
+}
+
+th {
+    padding-right: 20px;
+}
