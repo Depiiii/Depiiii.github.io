@@ -18,8 +18,7 @@ body {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: center;
 }
 
 .card {
@@ -31,14 +30,12 @@ body {
     box-shadow: 0;
     width: 1000px;
     margin: 0 auto;
-    margin-top: 65px;
     padding: 20px;
     height: 500px;
     align-content: center;
     justify-content: space-evenly;
     place-items: center;
-    border: 2px solid rgba(255, 255, 255, 0.078);
-
+    border: 2px solid rgba(255, 255, 255, 0.078);
 }
 
 .isi-biodata {
